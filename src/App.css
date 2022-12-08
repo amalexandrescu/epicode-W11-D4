@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+#imageDetailsPage {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card {
+  height: 350px;
+}
+
+.card-img-top {
+  height: 150px;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.navbar {
+  height: 7vh;
+}
+
+.details-container {
+  height: 93vh;
+}
+
+a.navbar-links:hover {
+  text-decoration: none;
+}
